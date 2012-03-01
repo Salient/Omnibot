@@ -1,14 +1,15 @@
 #include "NickManager.h"
 
-void NickManager::channelnicks(std::string channel_ std::vector<std::string> vect){
+void NickManager::channelNicks(std::string channel, std::vector<std::string> vect){
 	std::vector<std::string>::iterator itr;
-	for(itr = vect.begin(), itr != vect.end(), vect++){
 
-		//check to see if its allready in users
-		
-		//if not create a new user
-		
-	}
+//	for (itr = vect.begin(); itr != vect.end(); vect++) {
+//
+//		//check to see if its already in users
+//		;
+//		//if not create a new user
+//
+//	}
 }
 
 void NickManager::changeNick(std::string oldNick, std::string newNick){
@@ -22,7 +23,7 @@ void NickManager::joinChannel(std::string channel, std::string nick){
 	//
 	//if not, create one;
 	//
-	//put it in the appropritate chanel
+	//put it in the appropriate channel
 }
 
 void NickManager::leaveChannel(std::string channel, std::string nick){

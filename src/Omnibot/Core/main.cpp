@@ -1,4 +1,4 @@
-#include "ircInterface.h"
+#include "../../Minibot/Include/ircInterface.h"
 #include "omnibot.h"
 
 #include<poll.h>

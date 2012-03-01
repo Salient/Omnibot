@@ -1,4 +1,4 @@
-#include "ircNotifyClasses.h"
+#include "Include/ircNotifyClasses.h"
 #include <iostream>
 ircUser::ircUser(){
 	_nick = "";

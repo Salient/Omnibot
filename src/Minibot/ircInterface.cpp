@@ -1,6 +1,6 @@
-#include "ircInterface.h"
-#include <algorithm>
+#include "Include/ircInterface.h"
 
+#include <algorithm>
 #include <iostream>
 #include <sstream>
 
@@ -10,7 +10,7 @@
 
 //update statuses
 
-//add timer to reconnecet if we disconnect
+//add timer to reconnect if we disconnect
 
 const std::string ircInterface::PRIVMSG = "PRIVMSG";
 const std::string ircInterface::QUIT = "QUIT";

@@ -1,6 +1,6 @@
 #include <LinuxPluginFactory.h>
 
-#include"hurlbot.h"
+#include "../plugins/hurlbot.h"
 
 OmniPlugin* LinuxPluginFactory::load(std::string pluginName){
 	

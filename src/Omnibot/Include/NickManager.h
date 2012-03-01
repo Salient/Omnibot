@@ -1,8 +1,8 @@
 #ifndef _NICK_MANAGER_
 #define _NICK_MANAGER_
 
-#include"ircNotifyClasses.h"
-#include"ircInterface.h"
+#include "../../Minibot/Include/ircNotifyClasses.h"
+#include "../../Minibot/Include/ircInterface.h"
 
 #include<string>
 #include<vector>

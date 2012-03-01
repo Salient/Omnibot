@@ -1,4 +1,4 @@
-#include "ircUserAuth.h"
+#include "Include/ircUserAuth.h"
 
 ircUserAuth::ircUserAuth(ircInterface* irc, ircUserDB* db):_userDB(db),_irc(irc){}
 ircUserAuth::~ircUserAuth(){}

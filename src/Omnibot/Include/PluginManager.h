@@ -2,8 +2,8 @@
 #define _PLUGIN_MANAGER_
 
 #include <string>
-#include "ircInterface.h"
-#include "ircNotifyClasses.h"
+#include "../../Minibot/Include/ircInterface.h"
+#include "../../Minibot/Include/ircNotifyClasses.h"
 #include "PluginFactory.h"
 #include "OmniPluginInterface.h"
 #include "PluginUtils.h"

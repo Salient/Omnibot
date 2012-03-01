@@ -1,11 +1,11 @@
 #ifndef _OMNI_PLUGIN_
 #define _OMNI_PLUGIN_
 
-#include "Threads/pthread_Thread.h"
+#include "pthread_Thread.h"
 
-#include "Threads/OmniThread.h"
-#include "Threads/OmniThreadedClass.h"
-#include "ircNotifyClasses.h"
+#include "OmniThread.h"
+#include "OmniThreadedClass.h"
+#include "../../Minibot/Include/ircNotifyClasses.h"
 #include "PluginUtils.h"
 #include <utility>
 #include <deque>

@@ -1,10 +1,10 @@
 #ifndef _PLUGINUTILS_
 #define _PLUGINUTILS_
 
-#include"PluginManager.h"
-#include"ircInterface.h"
-#include"NickManager.h"
-#include"PluginAttrs.h"
+#include "PluginManager.h"
+#include "../../Minibot/Include/ircInterface.h"
+#include "NickManager.h"
+#include "PluginAttrs.h"
 
 //won't compile with out this here
 //think it has something to do with omnibot including plugin in manager

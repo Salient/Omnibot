@@ -3,8 +3,8 @@
 
 #include "NickManager.h"
 #include "PluginManager.h"
-#include "ircInterface.h"
-#include "ircInterfaceClient.h"
+#include "../../Minibot/Include/ircInterface.h"
+#include "../../Minibot/Include/ircInterfaceClient.h"
 
 class omnibot: public ircInterfaceClient{
 	public:
